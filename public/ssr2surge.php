@@ -619,7 +619,10 @@ function ssr_tr($ssrdecode){
                 $ssrdecodearr[5] = str_replace("-","+",$ssrdecodearr[5]);
 		$ssrdecodearr[5] = str_replace("_","+",$ssrdecodearr[5]);
 		$name = base64_decode(substr($ssrdecodearr[5],strpos($ssrdecodearr[5],"&remarks=")+strlen("&remarks="),strpos($ssrdecodearr[5],"&group=")-strpos($ssrdecodearr[5],"&remarks=")-strlen("&remarks=")));
-	        $rtv = $name." = ".$host.",".$port.",encrypt-method=".$encrypt.",password=".$passwd.",udp-relay=true";
+		//echo  mb_detect_encoding($name); 
+		$name = iconv("UTF-8", "UTF-8//IGNORE", $name);
+		//echo $encode;
+		$rtv = $name." = ".$host.",".$port.",encrypt-method=".$encrypt.",password=".$passwd.",udp-relay=true";
 	        return $rtv;
 }
 
