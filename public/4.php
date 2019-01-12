@@ -89,7 +89,7 @@ RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list
 RULE-SET,LAN,DIRECT
 
 GEOIP,CN,DIRECT
-FINAL,prCloud,dns-failed
+FINAL,Proxy,dns-failed
 
 rule;
 
