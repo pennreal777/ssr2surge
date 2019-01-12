@@ -27,7 +27,8 @@ function get_proxy_group($hosts) {
         }
         $prstr = "";
         foreach ($prcloud as $tmp){
-	        $prstr = $prstr.$tmp.",";
+		if ($tmp == "") {break;}
+		$prstr = $prstr.$tmp.",";
         }
         echo <<<eof
 
