@@ -30,7 +30,9 @@ function get_proxy_group($hosts) {
 	        $prstr = $prstr.$tmp.",";
         }
         echo <<<eof
+
 [Proxy Group]
+
 eof;
         echo "rixCloud = select,".$prstr;
         echo <<<eof
