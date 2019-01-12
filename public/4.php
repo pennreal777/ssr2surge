@@ -34,6 +34,9 @@ function get_proxy_group($proxy_names) {
 	                        $url= $url.",".$tmp;
 	                }
 		}
+		if ($proxy_name == "Apple") {
+		echo "$proxy_name = select$url,DIRECT".PHP_EOL;
+		}
 		echo "$proxy_name = select$url".PHP_EOL;
 	}
 }
@@ -47,6 +50,8 @@ function get_general () {
 	echo "#Version $date".PHP_EOL;
 
 	echo <<<head
+
+# prCloud, Inc.
 
 [General]
 bypass-system = true
