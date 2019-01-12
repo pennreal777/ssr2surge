@@ -44,7 +44,7 @@ function get_proxy_group($proxy_names) {
 
 
 function get_general () {
-	$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].$_SERVER["QUERY_STRING"];
+	$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?".$_SERVER["QUERY_STRING"];
 	echo "#!MANAGED-CONFIG $url interval=259200 strict=true".PHP_EOL;
 	echo "#Powered by prCloud".PHP_EOL;
 	$date = date("Ymd").PHP_EOL;
