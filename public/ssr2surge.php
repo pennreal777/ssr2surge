@@ -35,10 +35,8 @@ function get_proxy_group($hosts) {
 
 eof;
         echo "rixCloud = select,".$prstr;
-        echo <<<eof
-
-eof;
-        echo "Stream Services = select,rixCloud,".$prstr;
+	echo PHP_EOL;
+	echo "Stream Services = select,rixCloud,".$prstr;
         echo <<<eof
 
 Apple Services = select,rixCloud,DIRECT
