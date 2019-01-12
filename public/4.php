@@ -34,7 +34,7 @@ function get_proxy_group($proxy_names) {
 	                        $url= $url.",".$tmp;
 	                }
 		}
-		echo "$proxy_name = select,$url".PHP_EOL;
+		echo "$proxy_name = select$url".PHP_EOL;
 	}
 }
 
