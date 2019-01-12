@@ -34,12 +34,12 @@ function get_proxy_group($hosts) {
 [Proxy Group]
 
 eof;
-        echo "rixCloud = select,".$prstr;
+        echo "prCloud = select,".$prstr;
 	echo PHP_EOL;
-	echo "Stream Services = select,rixCloud,".$prstr;
+	echo "Stream Services = select,prCloud,".$prstr;
         echo <<<eof
 
-Apple Services = select,rixCloud,DIRECT
+Apple Services = select,prCloud,DIRECT
 
 eof;
 
@@ -76,8 +76,8 @@ function get_rule() {
 [Rule]
 
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Stream.list,Stream Services
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,rixCloud
-RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,rixCloud
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW+.list,prCloud
+RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Anti-GFW.list,prCloud
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Apple.list,Apple Services
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/China.list,DIRECT
 RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,REJECT
@@ -85,7 +85,7 @@ RULE-SET,https://cdn.rixcloud.io/surge/Rules-Set/Reject.list,REJECT
 RULE-SET,LAN,DIRECT
 
 GEOIP,CN,DIRECT
-FINAL,rixCloud,dns-failed
+FINAL,prCloud,dns-failed
 
 rule;
 
