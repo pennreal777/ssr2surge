@@ -28,16 +28,16 @@ function get_proxy_group($hosts) {
         $prstr = "";
         foreach ($prcloud as $tmp){
 		if ($tmp == "") {break;}
-		$prstr = $prstr.$tmp.",";
+		$prstr = ",".$prstr.$tmp;
         }
         echo <<<eof
 
 [Proxy Group]
 
 eof;
-        echo "prCloud = select,".$prstr;
+        echo "prCloud = select ".$prstr;
 	echo PHP_EOL;
-	echo "Stream Services = select,prCloud,".$prstr;
+	echo "Stream Services = select,prCloud ".$prstr;
         echo <<<eof
 
 Apple Services = select,prCloud,DIRECT
