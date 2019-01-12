@@ -40,7 +40,14 @@ function get_proxy_group($proxy_names) {
 
 
 function get_general () {
+	$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].$_SERVER["QUERY_STRING"];
+	echo "#!MANAGED-CONFIG $url interval=259200 strict=true".PHP_EOL;
+	echo "#Powered by prCloud".PHP_EOL;
+	$date = date("Ymd").PHP_EOL;
+	echo "#Version $date".PHP_EOL;
+
 	echo <<<head
+
 [General]
 bypass-system = true
 skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,17.0.0.0/8,localhost,*.local,169.254.0.0/16,224.0.0.0/4,240.0.0.0/4
