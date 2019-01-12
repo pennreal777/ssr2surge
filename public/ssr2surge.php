@@ -21,7 +21,7 @@ function get_proxy_group($hosts) {
         $i = 0;
         foreach ($hosts as $host) {
                 $hostarr = explode(PHP_EOL,$host);
-		print_r ($hostarr);
+		//print_r ($hostarr);
 		$prcloud[$i] = substr($hostarr[0],0,strpos($hostarr[0],"="));
 		$i++;
         }
