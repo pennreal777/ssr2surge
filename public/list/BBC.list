@@ -1,0 +1,6 @@
+# >> BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-SUFFIX,bbc.co.uk,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live

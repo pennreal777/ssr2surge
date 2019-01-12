@@ -1,0 +1,74 @@
+# --- Stream Service ---
+
+# >> AbemaTV
+USER-AGENT,AbemaTV*
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
+DOMAIN,linear-abematv.akamaized.net
+
+# >> Bahamut
+USER-AGENT,Anime*
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,hinet.net
+
+# >> BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-SUFFIX,bbc.co.uk,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+
+# >> encoreTVB
+USER-AGENT,encoreTVB*
+
+# >> HBO
+USER-AGENT,HBO%20NOW*
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+
+# >> Hulu
+USER-AGENT,Hulu*
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,happyon.jp
+
+# >> Jwplayer
+DOMAIN,content.jwplatform.com
+DOMAIN,videos-f.jwpsrv.com
+
+# >> JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,joox.com
+
+# >> myTV Super
+USER-AGENT,mytv*
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+
+# >> Netflix
+USER-AGENT,Argo*
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+
+# >> Spotify
+USER-AGENT,Spotify*
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+
+# >> YouTube
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,force-remote-dns
+DOMAIN,youtubei.googleapis.com,force-remote-dns
+
+# --- End of Stream Service Section ---

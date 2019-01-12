@@ -1,0 +1,85 @@
+# --- Mainland China Available --
+
+# rixCloud
+DOMAIN,analytics.rixcloud.app
+
+# >> Microsoft
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,sfx.ms
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,windows.net
+
+DOMAIN,officecdn-microsoft-com.akamaized.net
+
+# >> QQ
+USER-AGENT,QQ*
+USER-AGENT,TIM*
+
+# >> WeChat
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+
+# >> Blizzard
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+
+DOMAIN,blzddist1-a.akamaihd.net
+
+# >> Steam Store
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steampowered.com
+
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+
+# > YYeTs
+DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmzapi.com
+DOMAIN-SUFFIX,zmzapi.net
+DOMAIN-SUFFIX,zmzfile.com
+
+# > IP Query
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,ip-cdn.com
+DOMAIN-SUFFIX,ip.cn
+DOMAIN-SUFFIX,ip.la
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,whatismyip.com
+DOMAIN,ip.bjango.com
+DOMAIN-SUFFIX,ipip.net
+
+# >> Stream
+DOMAIN-SUFFIX,jstarkan.com
+
+# >> Others
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,maoyun.tv
+DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,udacity.com
+
+USER-AGENT,NeteaseMusic*
+USER-AGENT,%E5%8D%B3%E5%88%BB*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+# Client
+
+# >> Proxy
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
+
+# >> Downloader
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+
+# --- End of Mainland China Available Section ---
