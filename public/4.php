@@ -4,7 +4,7 @@ ssr2surge();
 function ssr2surge(){
 	$url = $_GET["url"];
 	if ($url == "") { echo "请输入参数";return -1;}
-	$proxy_names = explode(":","Proxy:AbemaTV:Apple:BBC:Bahamut:HBO:Hulu:Netflix:Spotify:Stream:Telegram:YouTube:TVB:DMM");
+	$proxy_names = explode(":","Proxy:AbemaTV:Apple:BBC:Bahamut:HBO:Hulu:Netflix:Spotify:Telegram:YouTube:TVB:DMM");
 	//print_r ($_POST["默认"]);
 	//echo $url;
 	$hosts = get_ssr_hosts($url);
@@ -80,7 +80,6 @@ RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Netflix.list ,Netflix
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Reject.list ,REJECT
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Spotify.list ,Spotify
-RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Stream.list ,Stream
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Telegram.list ,Telegram
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/YouTube.list ,YouTube
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/encoreTVB.list ,TVB

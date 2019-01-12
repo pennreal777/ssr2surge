@@ -40,7 +40,7 @@ head;
 
 function get_proxy_group($hosts) {
 	//echo "get_proxy_group";
-	$proxy_names = explode(":","Proxy:AbemaTV:Apple:BBC:Bahamut:HBO:Hulu:Netflix:Spotify:Stream:Telegram:YouTube:TVB:DMM");
+	$proxy_names = explode(":","Proxy:AbemaTV:Apple:BBC:Bahamut:HBO:Hulu:Netflix:Spotify:Telegram:YouTube:TVB:DMM");
 	//print_r($proxy_names);
 	foreach ($proxy_names as $proxy_name) {
 		get_proxy($hosts,$proxy_name);
