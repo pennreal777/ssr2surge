@@ -82,8 +82,6 @@ function get_rule() {
 [Rule]
 
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/AbemaTV.list ,AbemaTV
-RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Anti-GFW+.list ,Proxy
-RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Anti-GFW.list ,Proxy
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Apple.list ,Apple
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/BBC.list ,BBC
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Bahamut.list ,Bahamut
@@ -98,6 +96,8 @@ RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/encoreTVB.list ,TVB
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/myTVSuper.list ,TVB
 RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/DMM.list ,DMM
+RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Anti-GFW+.list ,Proxy
+RULE-SET,https://raw.githubusercontent.com/PennReal/ssr2surge/master/public/list/Anti-GFW.list ,Proxy
 
 RULE-SET,LAN,DIRECT
 
