@@ -27,13 +27,13 @@ function get_proxy_group($proxy_names) {
 		foreach ($tmps as $tmp){
 			$url= $url.",".$tmp;
 		}
-		if ($url == "") {
+		/*if ($url == "") {
 	                $tmps =  $_GET["Proxy"];
 	                $url = "";
 	                foreach ($tmps as $tmp){
 	                        $url= $url.",".$tmp;
 	                }
-		}
+		}*/
 		if ($proxy_name == "Apple") {
 			echo "$proxy_name = select,Proxy$url,DIRECT".PHP_EOL;
 		}elseif ($proxy_name == "Proxy"){
