@@ -35,9 +35,11 @@ function get_proxy_group($proxy_names) {
 	                }
 		}
 		if ($proxy_name == "Apple") {
-			echo "$proxy_name = select$url,DIRECT".PHP_EOL;
-		}else{
+			echo "$proxy_name = select,Proxy$url,DIRECT".PHP_EOL;
+		}elseif ($proxy_name == "Proxy"){
 			echo "$proxy_name = select$url".PHP_EOL;
+		}else{
+			echo "$proxy_name = select,Proxy$url".PHP_EOL;
 		}
 	}
 }
